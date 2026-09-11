@@ -3,7 +3,9 @@ build/
 dist/
 
 # IntelliJ IDEA
-.idea/
+.idea/*
+!.idea/runConfigurations/
+!.idea/libraries/
 *.iml
 *.iws
 *.ipr
@@ -12,3 +14,8 @@ out/
 # OS
 .DS_Store
 Thumbs.db
+# IntelliJ
+.idea/
+*.class
+# Logs
+*.log
