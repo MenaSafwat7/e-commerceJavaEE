@@ -73,6 +73,9 @@
 </head>
 <body>
     <div class="container">
+                   <form action="order-detail.jsp">
+                     <input type="submit">
+                   </form>
         <div class="status-badge">App Running Successfully</div>
         <h1>Java EE Application</h1>
         <p>Your Tomcat 10 server is working perfectly! The classic Java EE structure, controllers, services, repositories, and JSP views are ready.</p>

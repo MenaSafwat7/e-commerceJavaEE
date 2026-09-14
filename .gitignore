@@ -19,3 +19,4 @@ Thumbs.db
 *.class
 # Logs
 *.log
+/bin/
