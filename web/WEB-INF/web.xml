@@ -7,7 +7,6 @@
 
     <display-name>JavaEE_Project</display-name>
 
-    <!-- Default Servlet - serves static files (html, css, js, images) -->
     <servlet>
         <servlet-name>default</servlet-name>
         <servlet-class>org.apache.catalina.servlets.DefaultServlet</servlet-class>
@@ -26,7 +25,6 @@
         <url-pattern>/</url-pattern>
     </servlet-mapping>
 
-    <!-- JSP Servlet - processes .jsp files -->
     <servlet>
         <servlet-name>jsp</servlet-name>
         <servlet-class>org.apache.jasper.servlet.JspServlet</servlet-class>
@@ -41,7 +39,6 @@
         <url-pattern>*.jsp</url-pattern>
     </servlet-mapping>
 
-    <!-- Auth Servlet -->
     <servlet>
         <servlet-name>AuthServlet</servlet-name>
         <servlet-class>controllers.AuthServlet</servlet-class>
@@ -51,7 +48,6 @@
         <url-pattern>/auth/*</url-pattern>
     </servlet-mapping>
 
-    <!-- Product Servlet -->
     <servlet>
         <servlet-name>ProductServlet</servlet-name>
         <servlet-class>controllers.ProductServlet</servlet-class>
@@ -61,7 +57,15 @@
         <url-pattern>/products/*</url-pattern>
     </servlet-mapping>
 
-    <!-- Cart Servlet -->
+    <servlet>
+        <servlet-name>CategoryServlet</servlet-name>
+        <servlet-class>controllers.CategoryServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CategoryServlet</servlet-name>
+        <url-pattern>/admin/categories</url-pattern>
+    </servlet-mapping>
+
     <servlet>
         <servlet-name>CartServlet</servlet-name>
         <servlet-class>controllers.CartServlet</servlet-class>
@@ -71,7 +75,6 @@
         <url-pattern>/cart/*</url-pattern>
     </servlet-mapping>
 
-    <!-- Order Servlet -->
     <servlet>
         <servlet-name>OrderServlet</servlet-name>
         <servlet-class>controllers.OrderServlet</servlet-class>
