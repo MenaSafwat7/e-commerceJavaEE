@@ -41,7 +41,7 @@
 
     <servlet>
         <servlet-name>AuthServlet</servlet-name>
-        <servlet-class>controllers.AuthServlet</servlet-class>
+        <servlet-class>controller.AuthServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>AuthServlet</servlet-name>
@@ -50,7 +50,7 @@
 
     <servlet>
         <servlet-name>ProductServlet</servlet-name>
-        <servlet-class>controllers.ProductServlet</servlet-class>
+        <servlet-class>controller.ProductServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ProductServlet</servlet-name>
@@ -59,7 +59,7 @@
 
     <servlet>
         <servlet-name>CategoryServlet</servlet-name>
-        <servlet-class>controllers.CategoryServlet</servlet-class>
+        <servlet-class>controller.CategoryServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>CategoryServlet</servlet-name>
@@ -68,7 +68,7 @@
 
     <servlet>
         <servlet-name>CartServlet</servlet-name>
-        <servlet-class>controllers.CartServlet</servlet-class>
+        <servlet-class>controller.CartServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>CartServlet</servlet-name>
@@ -77,7 +77,7 @@
 
     <servlet>
         <servlet-name>OrderServlet</servlet-name>
-        <servlet-class>controllers.OrderServlet</servlet-class>
+        <servlet-class>controller.OrderServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>OrderServlet</servlet-name>
